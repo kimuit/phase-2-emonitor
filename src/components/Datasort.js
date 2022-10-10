@@ -10,7 +10,7 @@ export const Datasort = () => {
 
     //fetching data
     useEffect(() => {
-        fetch(`https://phase-data.herokuapp.com/data`)
+        fetch(`https://my-project-data.herokuapp.com/data`)
             .then((res) => res.json())
             .then((data) => {
                
@@ -21,9 +21,6 @@ export const Datasort = () => {
             console.error(error)
 })
     }, [])
-
-
-
         const change = (e) => {
         setData(results.filter(data =>
             data.first_name.toLowerCase()
@@ -40,12 +37,7 @@ export const Datasort = () => {
                     return (
                         <div key={key}>
                             <Sort
-                                key={key}
-                                first_name={data.first_name}
-                                phone_no={data.phone_no}
-                                email={data.email}
-                                house_no={data.house_no}
-                            />
+                                key={key} first_name={data.first_name} phone_no={data.phone_no} email={data.email} house_no={data.house_no} />
                         </div>
                     );
                 })}
