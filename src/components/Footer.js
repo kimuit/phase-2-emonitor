@@ -81,7 +81,7 @@ function Footer() {
         </div>
       </div>
       <>
-      <Link><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2252.975977392045!2d36.784520041009415!3d-1.30205157044233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2ske!4v1665345673487!5m2!1sen!2ske" width="200" height="95" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></Link>
+      {/* <Link><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2252.975977392045!2d36.784520041009415!3d-1.30205157044233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2ske!4v1665345673487!5m2!1sen!2ske" width="200" height="95" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></Link> */}
       </>
       <section class='social-media'>
         <div class='social-media-wrap'>
