@@ -18,7 +18,7 @@ export const Datasort = () => {
                 setResults(data)
             })
             .catch((error)=>{
-            console.error(error)
+            console.error(error)  
 })
     }, [])
         const change = (e) => {
@@ -60,3 +60,59 @@ const Sort = ({ first_name, phone_no, house_no, email }) => {
 </table>
     );
 };
+
+
+
+
+// import React, { useState, useEffect } from "react";
+// import Search from "./Search";
+
+
+// export const Transaction = () => {
+// const [transaction, setTransaction] = useState([]);
+// const [results, setResults] = useState([]);
+
+// useEffect(() =>{
+//   fetch(`http://localhost:8001/transactions`)
+//   .then((res) => res.json())
+//   .then((transaction) =>{
+//     setTransaction(transaction)
+//     setResults(transaction)
+//   })
+//   .catch((error)=>{
+//     console.error(error)
+//   })
+// }, [])
+
+//  const change = (e) => {
+//         setTransaction(results.filter(transaction =>
+//             transaction.first_name.toLowerCase()
+//                 .includes(e.target.value.toLowerCase())))
+//     }
+
+//   return (
+    
+//     <>
+//     <Search change={change} />
+//     {transaction.map((transaction, key) =>{
+//       return(
+//          <div key={key}>
+//                             <Sort
+//                                 key={key} date={transaction.date} description={transaction.description} amount={transaction.amount} />
+//                         </div>
+//       )
+//     })}
+//     </>
+//      );
+// };
+// const Sort = ({date, description, category, amount}) =>{
+//   if(!date) return
+//   return(
+//  <tr>
+//       <td>{date}</td>
+//       <td>{description}</td>
+//       <td>{category}</td>
+//       <td>{amount}</td>
+//     </tr>
+//   );
+// };

@@ -67,7 +67,10 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>JOIN</Button>}
+         <Link 
+         to='/join'
+         className='nav-links'
+         onClick={closeMobileMenu}> {button && <Button buttonStyle='btn--outline'>Join</Button>}</Link>
         </div>
       </nav>
     </>
