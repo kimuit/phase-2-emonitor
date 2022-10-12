@@ -4,6 +4,8 @@
   @Griffin kimuita
  ### https://github.com/kimuit/phase-2-emonitor/edit/main/README.md
 
+ live link >>> https://glistening-emonitor.netlify.app/
+
 # Description 
 This is a website that showcase a gated community were the management of the estate or guard at the gate can us to add member how get into the estate and also add newmembers to an estte.
 
